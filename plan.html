@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Multi-step form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+   <link rel="stylesheet" type="text/css" href="./style.css" />
+   <script src="https://kit.fontawesome.com/738d750c55.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<main>
+    <div class="main-content">
+        <div class="content">
+          <div class="sidebar">
+             <div class="steps">
+              <span id="info-step"> 1</span>
+              <div class="steps-info">
+                <span>step1</span>
+                <p>your info</p>
+              </div>
+             </div>
+             <div class="steps">
+              <span id="plan-step"> 2</span>
+              <div class="steps-info">
+                <span>step2</span>
+                <p>Select Your Plan</p>
+              </div>
+             </div>
+             <div class="steps">
+              <span> 3</span>
+              <div class="steps-info">
+                <span>step3</span>
+                <p>Add-ons</p>
+              </div>
+             </div>
+             <div class="steps">
+              <span> 4</span>
+              <div class="steps-info">
+                <span>step4</span>
+                <p>Summary</p>
+              </div>
+             </div>
+            </div>
+          <div id='info'>
+             <h1>Select your plan</h1>
+             <p>  You have the option of monthly or yearly billing</p>
+             <div class="block-plan">
+                <div class="block">
+                    <div class="block-item">
+                        <img src="./assets//images/icon-arcade.svg" alt="">
+                        <div class="type">
+                            <span>Arcade</span>
+                            <span>$9/mo</span>
+                        </div>
+               
+                    </div>
+                  </div>
+                  <div class="block">
+                    <div class="block-item">
+                        <img src='./assets/images/icon-advanced.svg' alt="">
+                  <div class="type">
+                    <span>Advanced</span>
+                    <span>$12/mo</span>
+                  </div>
+                    </div>
+                  </div>
+                  <div class="block">
+                    <div class="block-item">
+                        <img src="./assets/images/icon-pro.svg" alt="">
+                       <div class="type">
+                        <span>Pro</span>
+                        <span>$15/mo</span>
+                       </div>
+                    </div>
+                  </div>
+             </div>
+
+             <div class="plan-type">
+                <span>Monthly</span>
+                <span><i class="fa-solid fa-toggle-on"></i></span>
+                <span>Yearly</span>
+             </div>
+
+             <div class="footer">
+                <button>Go Back</button>
+                <button class="btn">Next Step</button>
+             </div>
+      
+              
+            </div>
+            </div>
+        </div>
+</main>
+
+</body>
+</html>
